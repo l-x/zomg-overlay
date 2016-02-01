@@ -68,7 +68,7 @@ src_install() {
 }
 
 pkg_postinst() {
-	xdg-desktop-menu install "${FILESDIR}"/torbrowser.desktop || die "Could not register a menu item!"
+	xdg-desktop-menu install "${FILESDIR}"/zomg-torbrowser.desktop || die "Could not register a menu item!"
 	if [ -d /opt/${PN} ]; then
 		chown `logname` -R /opt/${PN}/
 	fi
@@ -88,6 +88,6 @@ pkg_postinst() {
 }
 
 pkg_postrm() {
-	xdg-desktop-menu uninstall "${FILESDIR}"/torbrowser.desktop || die "Could not de-register a menu item!"
+	xdg-desktop-menu uninstall "${FILESDIR}"/zomg-torbrowser.desktop || die "Could not de-register a menu item!"
 	return
 }
