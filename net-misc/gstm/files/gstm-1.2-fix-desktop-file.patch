@@ -1,0 +1,14 @@
+diff --git a/gstm.desktop b/gstm.desktop
+index 24fef10..049e2ce 100644
+--- a/gstm.desktop
++++ b/gstm.desktop
+@@ -4,7 +4,7 @@ Name=gSTM
+ GenericName=gSTM
+ Comment=Manage SSH tunnel connections
+ Exec=gstm
+-Icon=gSTM.png
++Icon=gSTM
+ Terminal=false
+ Type=Application
+-Categories=Application;GTK;GNOME;Network;
++Categories=Utility;GTK;GNOME;Network;

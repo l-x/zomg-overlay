@@ -24,6 +24,7 @@ DEPEND="
 
 src_prepare() {
 	epatch "${FILESDIR}/${P}-fix-linker-deps.patch" || die "patch failed"
+	epatch "${FILESDIR}/${P}-fix-desktop-file.patch" || die "patch failed"
 }
 
 src_install() {
