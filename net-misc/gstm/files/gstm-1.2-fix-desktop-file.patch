@@ -11,4 +11,4 @@ index 24fef10..049e2ce 100644
  Terminal=false
  Type=Application
 -Categories=Application;GTK;GNOME;Network;
-+Categories=Utility;GTK;GNOME;Network;
++Categories=Utility;Network;
