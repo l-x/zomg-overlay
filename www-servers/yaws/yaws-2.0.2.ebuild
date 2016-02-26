@@ -9,7 +9,7 @@ HOMEPAGE="http://yaws.hyber.org/"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64 ~x86"
 
 SRC_URI="http://yaws.hyber.org/download/${P}.tar.gz"
 DEPEND="dev-lang/erlang"
