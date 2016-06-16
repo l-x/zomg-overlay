@@ -18,10 +18,10 @@ SLOT="0"
 IUSE=""
 DEPEND=""
 
-KEYWORDS="amd64 x86"
+KEYWORDS="~amd64 ~x86"
 
-URL_32="http://downloads.meetfranz.com/releases/${PV}/${MY_PN}-linux-ia32-${PV}.tgz"
-URL_64="http://downloads.meetfranz.com/releases/${PV}/${MY_PN}-linux-x64-${PV}.tgz"
+URL_64="https://github.com/imprecision/franz-app/releases/download/${PV}/${MY_PN}-linux-x64-3.0.0.tgz"
+URL_32="https://github.com/imprecision/franz-app/releases/download/${PV}/${MY_PN}-linux-ia32-3.0.0.tgz"
 
 SRC_URI="
 	amd64? ( ${URL_64} )
