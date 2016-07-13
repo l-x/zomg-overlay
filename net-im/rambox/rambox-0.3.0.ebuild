@@ -12,7 +12,7 @@ MY_PN="Rambox"
 DESCRIPTION="Rambox is a free messaging app and combines chat and messaging services into one application."
 HOMEPAGE="http://rambox.pro"
 
-LICENSE="GPL-2"
+LICENSE="MIT"
 SLOT="0"
 
 IUSE=""
