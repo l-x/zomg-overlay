@@ -27,7 +27,6 @@ SRC_URI="
 	amd64? ( ${URL_64} )
 	x86? ( ${URL_32} )
 "
-echo "${$SRC_URI}"
 
 RESTRICT="strip mirror"
 
